@@ -242,33 +242,6 @@ const About = () => {
         </div>
       </section>
 
-      {/* Timeline Section */}
-      {/* <section className="py-20 bg-gray-50 relative">
-        <div className="container mx-auto px-6">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">
-              Our <span className="text-navy-blue">Journey</span>
-            </h2>
-          </div>
-
-          <div className="max-w-4xl mx-auto">
-            {timeline.map((item, index) => (
-              <div key={index} className="flex flex-col md:flex-row items-center mb-12">
-                <div className="md:w-1/4 text-center md:text-right mb-4 md:mb-0">
-                  <div className="text-2xl font-bold text-dark-red">{item.year}</div>
-                </div>
-                <div className="md:w-1/4 flex justify-center mb-4 md:mb-0">
-                  <div className="w-4 h-4 bg-navy-blue rounded-full"></div>
-                </div>
-                <div className="md:w-1/2">
-                  <h3 className="text-xl font-bold text-navy-blue mb-2">{item.title}</h3>
-                  <p className="text-black">{item.description}</p>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section> */}
     </div>
   );
 };
