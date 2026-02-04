@@ -6,7 +6,7 @@ import globalIcon from "../assets/global.png";
 const About = () => {
   const [count1, setCount1] = useState(0);
   const [count2, setCount2] = useState(0);
-  const [count3, setCount3] = useState(0);
+ 
   const [count4, setCount4] = useState(0);
 
   const [hasAnimated, setHasAnimated] = useState(false);
@@ -38,7 +38,7 @@ const About = () => {
           setHasAnimated(true);
           animateCounter(25, setCount1, 2000);
           animateCounter(50, setCount2, 2200);
-          animateCounter(5, setCount3, 1800);
+          
           animateCounter(20, setCount4, 2400);
         }
       },
